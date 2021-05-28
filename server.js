@@ -15,8 +15,8 @@ app.get('/', (req, res) => res.render('pages/home'))
 app.get('/services', (req, res) => res.render('pages/services'))
 
 app.get('/contact', (req, res) => res.render('pages/contact'))
-app.get('/videos', (req, res) => res.render('pages/Videos'))
-app.get('/contactform', (req, res) => res.render('pages/ContactForm'))
+app.get('/videos', (req, res) => res.render('pages/videos'))
+app.get('/contactform', (req, res) => res.render('pages/contactform'))
 
 //conexion
 const connection = mysql.createConnection({
