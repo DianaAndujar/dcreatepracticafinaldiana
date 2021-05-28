@@ -1,0 +1,23 @@
+<table class="table table-success table-striped table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Names</th>
+        <th scope="col">Last Names</th>
+        <th scope="col">Email</th>
+        <th scope="col">Phone Number</th>
+      </tr>
+    </thead>
+    <tbody>
+    <% for(var i=0; i < results.length; i++) { %>
+      <tr>
+          <td><%= results[i].id %></td>
+          <td><%= results[i].names  %></td>
+          <td><%= results[i].last_names %></td>
+          <td><%= results[i].email %></td>
+          <td><%= results[i].phone_number %></td>
+      </tr>
+      <%} %>
+
+    </tbody>
+  </table>

@@ -1,0 +1,46 @@
+
+    <div class="cajaform">
+        <div id="ordern">
+    <h1 id="ok">ORDER FORM</h1>
+</div>
+    <br>
+    <section>
+        
+         <form action="/ordernow" method="POST">
+
+            <div id="names">
+         <label for="username">Names:</label>
+         <input  type="text" name="names" id="username" 
+         placeholder="Enter." required>
+        </div>
+ 
+        <div id="names">
+         <label>Last Names:
+             <input type="text" name="last_names" id="password" required placeholder="Enter." >
+         </label>
+        </div>
+     
+        <div id="names">
+         <label for="mail">Email:</label>
+         <input type="email" name="email" id="mail"  required placeholder="Enter.">
+        </div>
+         
+        <div id="names">      
+      <label>Phone Number:
+        <input type="text" name="phone_number" id="password" placeholder="Enter." required>
+         </label>
+        </div>
+
+        <div id="names">
+<label for="Descripción">Description of the order:</label> <br>
+<textarea name="description" id="Descripción" cols="30" rows="10"  required></textarea>
+</div>
+
+
+<input type="reset" id="clean" value="Clean">
+
+<button type="submit" id="send">Send</button>
+</form>
+</div>
+</section>
+

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+body{
+    background-color: white;
+}
+ 
+.menu{
+    background-color: #F3F68B;
+    text-align: center;
+    height: 97px;
+    position: relative;
+     width: 100%;
+}
+
+img{
+    width:140px;
+    height: 40px;
+margin-top: 11px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: #5E5D5D;
+}
+
+nav{
+    list-style: none;
+    font-family: fantasy;
+    font-size: 18px;
+    margin-top: 7px;
+ 
+}
+ 
+a:hover {
+    color: #8CAFBB;
+}
+
+/*header*/
+
+
+/*slider*/
+.slider{
+    background-color: #FF6864;
+    height: 400px;
+    position: relative;
+     width: 100%;
+     margin-top: 0px;
+}
+/*slider*/
+
+/*About us pagina con scroll*/
+.aboutus{
+    background-color: #64B2FF;
+    height: 800px;
+    position: relative;
+     width: 100%;
+     margin-top: 0px;
+}
+/*About us pagina con scroll*/
+
+/*footer*/
+.footer{
+    background-color: black;
+    height: 200px;
+    color: white;
+    position: relative;
+     width: 100%;
+     margin-top: 0px;
+}
+/*footer*/
+
+.aboutud{
+    overflow: hidden;
+}
+
+.about{
+    float: left;
+    width: 430px;
+}
